@@ -1,4 +1,27 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background: rgb(157, 216, 201);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html,
+body {
+  margin: 0;
+}
+.counter-container {
+  border: 1px solid black;
+  background: #394a52;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 20px;
+}
+button {
+  width: 50px;
+  margin: 10px auto;
+  text-align: center;
 }
